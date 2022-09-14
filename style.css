@@ -10,24 +10,37 @@
     background-color: lightgreen; 
   }
 
+
+/* a tags*/
+
 a{
     color: darkgreen;
   }
   
+
+
+/* hover*/
+
 h1:hover{
     background-color: yellow;
   }
 
-p.div-1{
+/* define at least 2 class selectors and 1 idselector*/
+
+/*class*/
+.div-1{
+    font-style: oblique;
 
   }
-
+/*class*/
 ol.ord_list1{
-
+    font-style: italic;
+/* frog ally*/
 }
 
-img#imgFrog{
 
+img#imgFrog{
+    border-radius: 50%;
 }
   /* Webpage must contain 
 
@@ -36,12 +49,8 @@ img#imgFrog{
   contain a Facebook like button (at least one of these like buttons must have >5 likes)
   
   The CSS file must:
-  * define at least 2 class selectors and 1 id selector
-
-
-
   * use the @media rule to modify some attribute for small screen sizes
-  *  */
+  */
   
   
   @media only screen and (max-width: 600px) {
