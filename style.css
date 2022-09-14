@@ -2,11 +2,54 @@
     background-color: lightblue; 
   }
      
-  .div-2 {
+.div-2 {
     background-color: greenyellow; 
   }
      
-  .div-3 {
+.div-3 {
     background-color: lightgreen; 
   }
+
+a{
+    color: darkgreen;
+  }
+  
+h1:hover{
+    background-color: yellow;
+  }
+
+p.div-1{
+
+  }
+
+ol.ord_list1{
+
+}
+
+img#imgFrog{
+
+}
+  /* Webpage must contain 
+
+  Every HTML 
+  
+  contain a Facebook like button (at least one of these like buttons must have >5 likes)
+  
+  The CSS file must:
+  * define at least 2 class selectors and 1 id selector
+
+
+
+  * use the @media rule to modify some attribute for small screen sizes
+  *  */
+  
+  
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+  
+  
+  
   
